@@ -1,7 +1,10 @@
-import { knex } from "../database/knex.js"
+import type { CriarRefri } from "../types/refri.js";
+import { knex } from "../database/knex.js";
 
-class RefriRepositories{
-
-}
+class RefriRepositorie {
+  async getAll() {
+    const refri = await knex("refri").select("*").returning("*");
+    return refri;
+  }
 
 export const refrirepositories = new RefriRepositories
