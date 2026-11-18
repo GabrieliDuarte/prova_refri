@@ -1,3 +1,4 @@
+import { refriRoutes } from "../routes/refri.routes.js"
 
 class  RefriService {
 

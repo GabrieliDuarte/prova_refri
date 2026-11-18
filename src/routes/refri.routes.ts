@@ -5,4 +5,4 @@ class RefriRoutes{
 
 }
 
-export const refriRoutes = new RefriRoutes
+export const refriRoutes = new RefriRoutes()
