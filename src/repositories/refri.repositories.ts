@@ -1,4 +1,4 @@
-
+import { knex } from "../database/knex.js"
 
 class RefriRepositories{
 
