@@ -1,5 +1,18 @@
+import express from "express";
 
-const = app
-const port = 3000
+import { RefriRouter } from "./routes/
 
-app.listen
+refri.route.js";
+
+
+const app = express();
+
+const port = 3000;
+
+app.use(express.json());
+
+app.use("/refri", RefriRouter);
+
+app.listen(port, () => console.log(
+
+`Api rodando em http://localhost${port}`));
