@@ -1,8 +1,7 @@
 import {Router} from "express"
 
 
-class RefriRoutes{
- 
-}
+export const  RefriRoutes= Router()
 
-export const refriRoutes = new RefriRoutes()
+
+
