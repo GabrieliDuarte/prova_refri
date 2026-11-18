@@ -6,5 +6,5 @@ class RefriRepositorie {
     const refri = await knex("refri").select("*").returning("*");
     return refri;
   }
-
-export const refrirepositories = new RefriRepositories
+}
+export const refrirepositories = new RefriRepositorie

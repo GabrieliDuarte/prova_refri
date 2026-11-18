@@ -1,6 +1,12 @@
-import { refriRoutes } from "../routes/refri.routes.js"
+import { refrirepositories } from "../repositories/refri.repositories.js"
 
 class  RefriService {
+
+    async getAll(){
+        const refri = await.refrirepositories
+        return refri
+    }
+        
 
 }
 
